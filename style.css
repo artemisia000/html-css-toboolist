@@ -14,11 +14,18 @@ header {
     background-color: #fff;
     
     
+    
+    
 }
 .logo {
     margin: 20px 20px;
-    text-align: center;
+    
+    background-color: #fff;   
+}
+.title {
     background-color: #fff;
+    font-size: 50px;
+    
     
 }
 
@@ -35,20 +42,25 @@ header {
     height: 80px;
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
     
 }
 
 .button1 {
     background-color: aqua;
     width: 80px;
-    height: 45px;
+    height: 40px;
     border-radius: 5%;
     border-color: aqua;
+    
 }
 
 .button2 {
     width: 100px;
-    height: 45px;
+    height: 40px;
     border-radius: 5%;
     border-color: #fff;
 }
