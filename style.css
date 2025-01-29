@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    font-family: "Montserrat", serif;
+    font-family: "Merriweather Sans", serif;
     font-optical-sizing: auto;       
     font-style: normal;    
 }
@@ -33,27 +33,64 @@ main{
 }
 
 hr{
-    color: #f6f7f8;
+    color: #f6f7f86e;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+ul{
+    padding-left: 0px;
+}
+button{
+    border: 1px solid;
 }
 
 .container {
     width: 70%;
-    height: 1000px;
+    padding: 0px 50px;
     background-color: #fff;
     margin: 40px auto;
 }
 
+.box{
+    padding: 10px 0;
+}
+
+.text{
+    font-weight: 500;
+    font-size: 20px;
+}
+
 /*BUTTONS*/
 
-.buttontTop {
-    padding: 10px 50px !important;
-    border-radius: 5px !important;
-    font-weight: 400 !important;
+.buttonTop {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.buttonTop:first-child{
+    background-color: #0084d8;
+    color: #fff;
+    border-color: #0084d8;
+}
+
+.buttonTop:nth-child(2){
+    background-color: #fff;
+    color: #b0b1b1;
+    border-color: #b0b1b1;
+    border-color: currentColor;
 }
 
 .btn{
-     border-radius: 50%;
-     padding: 15px 50px;
+     border-radius: 25px;
+     padding: 8px 20px;
+     font-weight: 500;
+     margin-left: 15px;
+     
 }
 
 .btnBlue{
@@ -98,14 +135,37 @@ hr{
     border-color: #9eb01c;
 }
 
-/*SECTION TOP*/
+/*CHECK*/
+.check{
+    display: inline-block;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.checkedGreen{
+    color: #299484;
+    border: 1px solid currentColor;
+    font-weight: 500;
+}
+
+.checkedRed{
+    color: #bb7d82;
+    border: 1px solid currentColor;
+}
+
+
+/*SECTION */
 .sectionTop{
-    padding: 15px;
+    padding: 15px 80px;
 }
 
 .sectionMain{
     padding: 80px;
-
 }
 
 
@@ -117,31 +177,3 @@ hr{
 
 
 
-
-.button2 {
-    width: 100px;
-    height: 40px;
-    border-radius: 5%;
-    border-color: #fff;
-}
-
-/*main*/
-.titles{
-    font-weight: 700;
-    font-size: 25px;
-    padding-left: 50px;
-    
-}
-.main1{
-    padding-top: 50px;
-}
-.list{
-    background-color: aqua;
-    border-radius: 30%;
-    border-color: aqua;
-    width: 70px;
-    height: 30px;
-    margin-left: 8px;
-    
-
-}
